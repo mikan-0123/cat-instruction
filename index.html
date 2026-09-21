@@ -71,6 +71,16 @@ body {
 .info-table td {
     padding: 8px;
     border: 1px solid #cbd5e1;
+    word-break: break-all; /* URLが長い場合に折り返す */
+}
+/* リンクのスタイル */
+a {
+    color: #2563eb;
+    text-decoration: underline;
+}
+a:hover {
+    color: #1e3a8a;
+    text-decoration: none;
 }
 /* 画像用のスタイルを追加 */
 .spot-image-wrapper {
@@ -120,7 +130,7 @@ body {
         </tr>
         <tr>
             <th>Google Maps</th>
-            <td>https://maps.app.goo.gl/1brXkPD2dLzwZyAt7</td>
+            <td><a href="https://maps.app.goo.gl/1brXkPD2dLzwZyAt7" target="_blank" rel="noopener noreferrer">https://maps.app.goo.gl/1brXkPD2dLzwZyAt7</a></td>
         </tr>
     </table>
     <!-- SPOT 1 画像: 同じ階層にあることを明示 -->
@@ -142,7 +152,7 @@ body {
         </tr>
         <tr>
             <th>Google Maps</th>
-            <td>https://maps.app.goo.gl/A978aCmN9t6X6LeX7</td>
+            <td><a href="https://maps.app.goo.gl/A978aCmN9t6X6LeX7" target="_blank" rel="noopener noreferrer">https://maps.app.goo.gl/A978aCmN9t6X6LeX7</a></td>
         </tr>
     </table>
     <!-- SPOT 2 画像: 同じ階層にあることを明示 -->
@@ -168,7 +178,7 @@ body {
         </tr>
         <tr>
             <th>Google Maps</th>
-            <td>https://maps.app.goo.gl/8P7zoT8BDSAf7DAr5</td>
+            <td><a href="https://maps.app.goo.gl/8P7zoT8BDSAf7DAr5" target="_blank" rel="noopener noreferrer">https://maps.app.goo.gl/8P7zoT8BDSAf7DAr5</a></td>
         </tr>
     </table>
     <!-- SPOT 3 画像: 同じ階層にあることを明示 -->
