@@ -40,15 +40,17 @@ body {
 }
 .spot-badge {
     display: inline-block;
-    width: 28px;
+    min-width: 28px;
+    padding: 0 8px;
     height: 28px;
     background: #2563eb;
     color: white;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 11pt;
     text-align: center;
     border-radius: 4px;
     line-height: 28px;
+    box-sizing: border-box;
 }
 .spot-name {
     font-size: 13pt;
@@ -82,7 +84,7 @@ a:hover {
     color: #1e3a8a;
     text-decoration: none;
 }
-/* 画像用のスタイルを追加 */
+/* 画像用のスタイル */
 .spot-image-wrapper {
     text-align: center;
     margin-top: 12px;
@@ -113,10 +115,10 @@ a:hover {
     <div class="subtitle">地域猫活動・構内環境美化のための給餌ポイントおよび用具保管場所マニュアル</div>
 </div>
 
-<!-- SPOT 1 -->
+<!-- SPOT: 餌保管場所 -->
 <div class="spot-card">
     <div>
-        <span class="spot-badge">1</span>
+        <span class="spot-badge">餌保管場所</span>
         <span class="spot-name">社会共創学部 付近</span>
     </div>
     <table class="info-table">
@@ -126,23 +128,23 @@ a:hover {
         </tr>
         <tr>
             <th>給餌キット保管</th>
-            <td><strong>緑色のコンテナボックス</strong>（自転車横の植え込みスペースに設置）</td>
+            <td><strong>緑色のコンテナボックス</strong></td>
         </tr>
         <tr>
             <th>Google Maps</th>
             <td><a href="https://maps.app.goo.gl/1brXkPD2dLzwZyAt7" target="_blank" rel="noopener noreferrer">https://maps.app.goo.gl/1brXkPD2dLzwZyAt7</a></td>
         </tr>
     </table>
-    <!-- SPOT 1 画像: 同じ階層にあることを明示 -->
+    <!-- 画像 -->
     <div class="spot-image-wrapper">
         <img src="./food.png" onerror="this.onerror=null; this.src='./food.jpg';" alt="社会共創学部 付近の画像" class="spot-image">
     </div>
 </div>
 
-<!-- SPOT 2 -->
+<!-- SPOT 1 -->
 <div class="spot-card">
     <div>
-        <span class="spot-badge">2</span>
+        <span class="spot-badge">1</span>
         <span class="spot-name">教育学部 付近（共通講義棟C 南側駐輪場奥）</span>
     </div>
     <table class="info-table">
@@ -155,16 +157,16 @@ a:hover {
             <td><a href="https://maps.app.goo.gl/A978aCmN9t6X6LeX7" target="_blank" rel="noopener noreferrer">https://maps.app.goo.gl/A978aCmN9t6X6LeX7</a></td>
         </tr>
     </table>
-    <!-- SPOT 2 画像: 同じ階層にあることを明示 -->
+    <!-- 画像 -->
     <div class="spot-image-wrapper">
         <img src="./edu.png" onerror="this.onerror=null; this.src='./edu.jpg';" alt="教育学部 付近の画像" class="spot-image">
     </div>
 </div>
 
-<!-- SPOT 3 -->
+<!-- SPOT 2 -->
 <div class="spot-card">
     <div>
-        <span class="spot-badge">3</span>
+        <span class="spot-badge">2</span>
         <span class="spot-name">愛媛大学ミュージアム・講義棟A 付近（デッキ周辺）</span>
     </div>
     <table class="info-table">
@@ -181,14 +183,14 @@ a:hover {
             <td><a href="https://maps.app.goo.gl/8P7zoT8BDSAf7DAr5" target="_blank" rel="noopener noreferrer">https://maps.app.goo.gl/8P7zoT8BDSAf7DAr5</a></td>
         </tr>
     </table>
-    <!-- SPOT 3 画像: 同じ階層にあることを明示 -->
+    <!-- 画像 -->
     <div class="spot-image-wrapper">
         <img src="./dekki.png" onerror="this.onerror=null; this.src='./dekki.jpg';" alt="愛媛大学ミュージアム・講義棟A 付近の画像" class="spot-image">
     </div>
 </div>
 
 <div class="footer-instruction">
-    最後に皿をトイレの洗面台などで軽く流してもとの１に戻してください
+    最後に皿をトイレの洗面台などで軽く流してもとの餌保管場所に戻してください
 </div>
 
 </body>
