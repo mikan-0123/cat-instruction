@@ -72,6 +72,18 @@ body {
     padding: 8px;
     border: 1px solid #cbd5e1;
 }
+/* 画像用のスタイルを追加 */
+.spot-image-wrapper {
+    text-align: center;
+    margin-top: 12px;
+}
+.spot-image {
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    object-fit: cover;
+}
 .footer-instruction {
     font-weight: bold;
     font-size: 11pt;
@@ -106,7 +118,15 @@ body {
             <th>給餌キット保管</th>
             <td><strong>緑色のコンテナボックス</strong>（自転車横の植え込みスペースに設置）</td>
         </tr>
+        <tr>
+            <th>Google Maps</th>
+            <td>https://maps.app.goo.gl/1brXkPD2dLzwZyAt7</td>
+        </tr>
     </table>
+    <!-- SPOT 1 画像: 同じ階層にあることを明示 -->
+    <div class="spot-image-wrapper">
+        <img src="./food.png" onerror="this.onerror=null; this.src='./food.jpg';" alt="社会共創学部 付近の画像" class="spot-image">
+    </div>
 </div>
 
 <!-- SPOT 2 -->
@@ -125,6 +145,10 @@ body {
             <td>https://maps.app.goo.gl/A978aCmN9t6X6LeX7</td>
         </tr>
     </table>
+    <!-- SPOT 2 画像: 同じ階層にあることを明示 -->
+    <div class="spot-image-wrapper">
+        <img src="./edu.png" onerror="this.onerror=null; this.src='./edu.jpg';" alt="教育学部 付近の画像" class="spot-image">
+    </div>
 </div>
 
 <!-- SPOT 3 -->
@@ -147,6 +171,10 @@ body {
             <td>https://maps.app.goo.gl/8P7zoT8BDSAf7DAr5</td>
         </tr>
     </table>
+    <!-- SPOT 3 画像: 同じ階層にあることを明示 -->
+    <div class="spot-image-wrapper">
+        <img src="./dekki.png" onerror="this.onerror=null; this.src='./dekki.jpg';" alt="愛媛大学ミュージアム・講義棟A 付近の画像" class="spot-image">
+    </div>
 </div>
 
 <div class="footer-instruction">
